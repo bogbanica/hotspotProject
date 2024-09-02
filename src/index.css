@@ -1,0 +1,53 @@
+#root,
+main {
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-logo {
+  width: 350px;
+  height: 90px;
+  margin-bottom: 40px;
+}
+
+.small-logo {
+  width: 150px;
+  height: 40px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d5d5d5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ababab;
+  border-radius: 4px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.arrow-left {
+  margin-right: 24px;
+}
+
+.rcp-body {
+  font-family: "Nexa";
+}
+
+.rcp-root {
+  background-color: #fff !important;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3) !important;
+}
+.rcp-field-input {
+  color: #000 !important;
+}
